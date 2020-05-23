@@ -1,20 +1,13 @@
-body {background-color:#007D91;
-margin:0;
-}
+body {background-color: #F8F9F9 ;}
 
 .container {
     width: 1500px;
-    margin: auto;
-    background-color: #F8F9F9 ;
 }
 
 .bilde {
     width: 40%;
     border-radius: 50%;
-    padding: 0px;
-    margin-top: 40px;
-
-
+    padding: 0px; 
    
 }
 
@@ -27,29 +20,17 @@ margin:0;
 .quarter {
    width: 20%;
    text-align: center;
-   position: absolute;
-   top: 0px;
+   position: fixed;
+   top: 50px;
    width: 300px;
-   background-image: linear-gradient(
-    to left,
-    transparent 50px,
-    #007D91 500px,
-    #007D91 calc(100% - 50px),
-    transparent 0
-  );
-  height: 1450px; 
 }
-
-
-
-
 
 .half {
     width: 75%;
     height: 750px;
     border-left: 1px groove	#C0C0C0;
     margin-left: 300px;
-    padding-left: 35px;
+    padding-left: 35px; 
 }
 
 .half2 {
@@ -63,8 +44,7 @@ margin:0;
 
 .row {
     display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif
 }
 
 .cv-name {
@@ -116,36 +96,3 @@ margin:0;
 .cv-text-duration {
     font-family: 'Times New Roman', Times, serif;
 }
-
-
-
-/* fixed scrolling */
-
-.bilde {
-    position: sticky;
-    top: 0px;
-}
-
-.cv-name {
-    position: sticky;
-    top: 150px;
-}
-.cv-text-1 {
-    position: sticky;
-    top: 185px;
-}
-.cv-text-2 {
-    position: sticky;
-    top: 215px;
-}
-.cv-text-3 {
-    position: sticky;
-    top: 250px;
-}
-.cv-text-4 {
-    position: sticky;
-    top: 285px;
-}
-
-
-
